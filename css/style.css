@@ -1,0 +1,362 @@
+body {
+  font-family: Verdana, Geneva, Courier, serif, sans-serif;
+  font-size: 100%;
+  margin: 0%;
+}
+
+/* HOME PAGE */
+
+/* HEADER SECTION */
+header {
+  background-image: url("../images/greece.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+nav {
+  overflow: hidden;
+  padding: 10px;
+  background-color: transparent;
+} 
+
+nav a:link, nav a:visited {
+  font-size: 100%;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  width: 90px;
+  padding: 6px;
+  box-sizing: border-box;
+  margin: 5px;
+  float: right;
+}
+
+nav a:hover, nav a:active {
+  color: #0782f5;
+  background-color: #ffffff;
+}
+
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 5em;
+}
+
+
+/* GROW SECTION */
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #476988;
+}
+
+#groups::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#group a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#groups p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.group {
+  width: 25%;
+  height: 19.75em;
+  border: 1px solid #ffffff;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+#choir {
+  background: url(../images/choir.jpg) no-repeat;
+  background-size: cover;
+}
+
+#drama {
+  background: url(../images/drama.jpg) no-repeat;
+  background-size: cover;
+}
+
+#welfare {
+  background: url(../images/welfare.jpg) no-repeat;
+  background-size: cover;
+}
+
+#others {
+  background: url(../images/others.jpg) no-repeat;
+  background-size: cover;
+}
+
+.grow {
+  background: url("../images/flower.jpg") no-repeat fixed;
+  background-size: cover;
+  padding-bottom: 5px;
+  width: 100%
+}
+
+.grow h3 {
+  padding: 1em;
+  font-size: 2em;
+  color: #f1e6e6;
+  text-shadow: 2px 4px #3d3939;
+}
+
+.grow p {
+  color: #4d4040;
+  font-size: 1.2em;
+  text-align: center;
+  font-style: italic;
+}
+
+.grow a {
+  display: block;
+  background-color: #f1e6e6;
+  color: #f507c1;
+  text-decoration: none;
+  text-align: center;
+  border: 5px groove #f507c1;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 15%;
+}
+
+.grow a:hover {
+  background-color: #f182d9;
+  color: #ffffff;
+}
+
+
+/* FOUNDER */
+.founder::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.content {
+  box-sizing: border-box;
+  float: left;
+  width: 24.5%;
+  height: 15em;
+}
+
+.image {
+  background: url("../images/benson.jpg") no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.content h3 {
+  margin-top: 80px;
+}
+
+.content ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.content li {
+  line-height: 25px;
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+  padding: 10px;
+  line-height: 30px;
+}
+
+/* SERVICES */
+.services {
+  background: url("../images/bible.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.services::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.service {
+  box-sizing: border-box;
+  overflow: auto;
+  width: 33.33%;
+  height: 10em;
+  float: left;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.service p {
+  text-transform: lowercase;
+  font-style: italic;
+  font-weight: normal;
+  color: #1f1e1e;
+}
+
+
+#sunday {
+  background-color: rgba(243, 125, 7, 0.6);
+}
+
+#wednesday {
+  background-color: rgba(84, 243, 10, 0.6);
+}
+
+#friday {
+  background-color: rgba(7, 41, 235, 0.6);
+}
+
+.scroll::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.scroll {
+  text-decoration: none;
+  display: block;
+  float: right;
+  margin-right: 5px;
+}
+
+/* FOOTER SECTION */
+footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bottom {
+  width: 25%;
+  float: left;
+}
+
+footer {
+  background-color: #1f1e1e;
+}
+
+.bottom h4 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.bottom p {
+  font-size: 1em;
+  line-height: 35px;
+  padding: 10px;
+  text-align: justify;
+  color: #ffffff;
+  margin: 0px 10px;
+}
+
+.bottom a {
+  text-decoration: none;
+  display: block;
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+}
+
+.bottom address {
+  line-height: 30px;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+
+
+/* CONTACT PAGE STYLE */
+.part1, .part2 {
+  background: url("../images/gears.jpg") no-repeat scroll center;
+  background-size: cover;
+}
+
+.upper {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #476988;
+}
+
+.part1, .part2 p {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 10px;
+  line-height: 30px;
+}
+
+.sub {
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+
+.sub:hover {
+  background-color: #64af70;
+  color: #ffffff;
+  
+}
+
+
+/* ABOUT PAGE STYLE */
+h2 {
+  text-align: center;
+  color: #476988;
+  font-size: 2.5em;
+}
+
+.bio img {
+  float: right;
+  margin: 8px;
+  width: 224px;
+  height: 225px;
+}
+
+.bio p {
+  text-align: justify;
+  padding: 10px;
+  line-height: 25px;
+}
+
+#mandate {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.conquer {
+  background: url("../images/man.jpg") no-repeat scroll center;
+  height: 25em;
+}
+
+.conquer h4 {
+  font-size: 1.7em;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #476988;
+  color: #ffffff;
+  padding: 50px;
+  margin-left: 450px;
+  line-height: 90px;
+  
+}
